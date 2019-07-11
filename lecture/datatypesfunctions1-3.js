@@ -1,4 +1,6 @@
-// Topic 1: Declaring variables
+// Topic 1: What is the console?
+
+// Topic 2: Declaring variables
 // ES5
 // declare a variable using the keyword var 
 
@@ -7,7 +9,7 @@
 // declare a variable using let and const
 
 
-// Topic 2: Data types (6 primitives + object)
+// Topic 3: Data types (6 primitives + object)
 // 1. number
 
 // What is Infinity? (1 / 0)
@@ -90,11 +92,15 @@ var subEx = function (num1, num2) {
 	return num1 - num2;
 }
 
+// Topic 4: Practice
 
 // Write addition function using declaration
 
 // Write multiplication function using expression
 
 // For more info: https://gomakethings.com/function-expressions-vs-function-declarations/
+
+
+// Topic 5: Collaboration as class
 
 // Collaborative function writing for yesterday's game
