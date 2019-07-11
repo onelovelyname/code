@@ -52,7 +52,8 @@ Basic Data Types and Functions Worksheet
 // If a variable is declared, but not assigned, then its value is undefined
 
 // 1. Declare a variable with a name of your choosing to null
-// 2. Declare a variable with the name of your choosing but do not assign it to anything, try to log this into the console, what appears?
+// 2. Declare a variable with the name of your choosing but 
+// do not assign it to anything, try to log this into the console, what appears?
 // 3. Discuss with a partner when would we use null, undefined?
 
 
@@ -64,7 +65,7 @@ Basic Data Types and Functions Worksheet
 // The object type is special.
 // All other types are called “primitive” because their values can contain only a single thing (be it a string or a number or whatever). In contrast, objects are used to store collections of data and more complex entities. 
 
-// 1. Create an object of yourself with your own properties similar to the one below
+// 1. Create an object of yourself with your own properties
 // 2. Try to log into the console the object
 // 3. Can you log individual attributes? How?
 // 4. Which situations would it be better to use an object rather than a primitive type of variable data type? When would it be better to use a primitive data type rather than an object? Discuss with a partner

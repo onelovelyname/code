@@ -1,3 +1,6 @@
+Go here for notes: 
+https://github.com/onelovelyname/code
+
 ## Melanie’s lecture (1 hour)
 - What is the console?
 - Declaring variables
@@ -5,6 +8,8 @@
 
 ## Project (1 hour)
 - Data types and functions worksheet 
+
+BREAK 
 
 ## In class review (1 hour)
 - Worksheet
