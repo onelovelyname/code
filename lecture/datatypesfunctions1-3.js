@@ -159,10 +159,10 @@ console.log(jannat.test.test1);
 
 // bracket notation
 var property1 = "height";
-console.log(jannat[property1]);
+// console.log(jannat[property1]);
 
 jannat.age = jannat.age + 1;
-console.log(jannat.age);
+// console.log(jannat.age);
 
 // All other types are called “primitive” because their values can contain only a single thing 
 // (be it a string or a number, etc). 
@@ -188,21 +188,32 @@ var classList2 = {
 };
 
 // bracket notation
-console.log(classList2[0]);
+// console.log(classList[0]);
 
+console.log("test1", add(5,7));
+console.log("test2", add2(5,7));
 
 // Function declaration
-
-function identity (name1) {
-	return `Hello ${name1}`;
-}
-
-
-function subDec (num1, num2) {
-	return num1 - num2;
+// inputs, outputs
+function add(num11, num2) {
+	// body
+	return num11 + num2;
 }
 
 // Function expression
+
+var add2 = function(num1, num2) {
+	return num1 + num2;
+}
+
+
+
+
+
+
+
+
+
 var subEx = function (num1, num2) {
 	return num1 - num2;
 }
