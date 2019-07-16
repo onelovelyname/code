@@ -13,11 +13,12 @@ BREAK (10 minutes)
 ## Review debugging worksheet (30 minutes)
 
 ## Melanie’s lecture (1 hour)
-- Classes 
+- Classes: using both functions and the keyword class (with declarations and expressions)
 
 ## Project (1 hour)
 - Classes worksheet - in groups of 2, create a class for a type you imagine: Animal, Person, Country...anything!
 - Must have 3 methods and 5 properties
+- Start with using the functional way of creating an object. If you have time, write it again using the class keyword
 
 ## Review classes worksheet (30 minutes)
 
