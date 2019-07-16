@@ -32,3 +32,12 @@ switch (expr) {
   default:
     console.log('Sorry, we are out of ' + expr + '.');
 }
+
+// collaboratively code rock-paper-scissors
+
+// Review: What command is needed at each stage?
+// 1. Unstaged, file is not tracked by github
+// 2. Staged and tracked, but changes are not added for saving
+// 3. Changes are added for saving, but file is not yet committed
+// 4. File is committed locally but not pushed online
+// 5. File is pushed online for sharing
