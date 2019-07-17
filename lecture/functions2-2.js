@@ -189,7 +189,20 @@ console.log(rockPaperScissors("paper", "scissors"));
 
 // Review: What command is needed at each stage?
 // 1. Unstaged, file is not tracked by github
+git status
+git add .
 // 2. Staged and tracked, but changes are not added for saving
+git status
+git add . 
 // 3. Changes are added for saving, but file is not yet committed
+git status
+git commit 
 // 4. File is committed locally but not pushed online
+git status
+git push origin master
 // 5. File is pushed online for sharing
+
+
+
+
+
