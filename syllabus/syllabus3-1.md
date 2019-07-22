@@ -1,6 +1,6 @@
 # Week 3 Day 1 (Monday July 22)
 
-## Game (15 minutes)
+## Game or stretching (15 minutes)
 
 ## Melanie's lecture (45 minutes)
 - Debugging using console and other tools
