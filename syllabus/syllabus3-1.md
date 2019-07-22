@@ -2,20 +2,27 @@
 
 ## Game (15 minutes)
 
-## Melanie's lecture (1 hour)
-- HTML and CSS
-- Concept of Document Object Model (DOM): a series of nested boxes. See diagram here: http://eloquentjavascript.net/14_dom.html#h_XJzHjmX32m
-- Examine DOM on github website
+## Melanie's lecture (45 minutes)
+- Debugging using console and other tools
 
 ## Project (1 hour)
-- Write a basic HTML page and do some styling
+- Debugging worksheet
 
-## BREAK
+BREAK (10 minutes)
+
+## Review debugging worksheet (30 minutes)
 
 ## Orjwan's lecture (1 hour)
-- Adding Javascript to the page to make it interactive
-- jQuery selectors to interact with DOM
+- Classes: using both functions and the keyword class (with declarations and expressions)
 
 ## Project (1 hour)
-- Add interactivity to basic HTML page using jQuery selectors: get a user input of a name and Youtube video link and add it to a list for display 
-- If time, we can also look to embed the specific youtube video on our page
+- Classes project - in groups of 2, create a class for a type you imagine: Animal, Person, Country...anything!
+- Must have 3 methods and 5 properties
+- Start with using the functional way of creating an object. If you have time, write it again using the class keyword
+
+## Review classes project (30 minutes)
+
+## Homework: Continue freecodecamp (1 hour)
+- Practice with datatypes in Javascript: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/
+
+- Practice with Command Line: https://www.codecademy.com/learn/learn-the-command-line

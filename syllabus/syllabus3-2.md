@@ -3,11 +3,17 @@
 ## Game (15 minutes)
 
 ## Melanie's lecture (1 hour)
-- sending AJAX requests to external API for information, perhaps Youtube
+- HTML and CSS
+- Concept of Document Object Model (DOM): a series of nested boxes. See diagram here: http://eloquentjavascript.net/14_dom.html#h_XJzHjmX32m
+- Examine DOM on github website
 
-## Project 1
-- Send a request to an external API (Youtube) for a video.
-- During Projects 1 and 2, we can also enjoy filming and recording at Shoruq's recording studio
+## Project (1 hour)
+- Write a basic HTML page and do some styling
 
-## Project 2
-- Handle response and display Youtube video on the page in a grid.
+## BREAK
+
+## Orjwan's lecture (1 hour)
+- Simple React introduction
+
+## Project (1 hour)
+- Build structure for basic react page

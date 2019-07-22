@@ -3,9 +3,11 @@
 ## Game (15 minutes)
 
 ## Melanie's lecture (1 hour)
-- Front-end frameworks like React
+- sending requests to external API for information, perhaps Youtube, using React structure
 
-## Project (1 hour)
-- Complete frontend project sending request, receiving response, and displaying information
-- We'll want to have a working frontend application where we submit a Youtube link, send a request to Youtube for the video, and display the video embedded on the page. 
-- In the future, we can store these links in a database using our own backend.
+## Project 1
+- Send a request to an external API (Youtube) for a video.
+- During Projects 1 and 2, we can also enjoy filming and recording at Shoruq's recording studio
+
+## Project 2
+- Handle response and display Youtube video on the page in a grid.
