@@ -12,8 +12,10 @@ BREAK (10 minutes)
 
 ## Review debugging worksheet (30 minutes)
 
-## Orjwan's lecture (1 hour)
+## Orjwan's lecture (45 minutes)
 - Classes: using both functions and the keyword class (with declarations and expressions)
+
+## Melanie's additions to classes lecture (if necessary)
 
 ## Project (1 hour)
 - Classes project - in groups of 2, create a class for a type you imagine: Animal, Person, Country...anything!
