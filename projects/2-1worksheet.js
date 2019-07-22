@@ -140,17 +140,17 @@ function isSquareNumber2(num) {
 // console.log("-9", isSquareNumber(-9)); // error
 // console.log("string -13", isSquareNumber("-13")); // error
 
-console.log("16", isSquareNumber2(16)); // true
-console.log("5", isSquareNumber2(5)); // false
-console.log("-9", isSquareNumber2(-9)); // error
-console.log("string -13", isSquareNumber2("-13")); // error
-console.log("16", isSquareNumber2(16)); // true
-console.log("5", isSquareNumber2(5)); // false
-console.log("-9", isSquareNumber2(-9)); // error
-console.log("string -13", isSquareNumber2("-13")); // errorconsole.log("16", isSquareNumber(16)); // true
-console.log("5", isSquareNumber2(5)); // false
-console.log("-9", isSquareNumber2(-9)); // error
-console.log("string -13", isSquareNumber2("-13")); // error
+// console.log("16", isSquareNumber2(16)); // true
+// console.log("5", isSquareNumber2(5)); // false
+// console.log("-9", isSquareNumber2(-9)); // error
+// console.log("string -13", isSquareNumber2("-13")); // error
+// console.log("16", isSquareNumber2(16)); // true
+// console.log("5", isSquareNumber2(5)); // false
+// console.log("-9", isSquareNumber2(-9)); // error
+// console.log("string -13", isSquareNumber2("-13")); // errorconsole.log("16", isSquareNumber(16)); // true
+// console.log("5", isSquareNumber2(5)); // false
+// console.log("-9", isSquareNumber2(-9)); // error
+// console.log("string -13", isSquareNumber2("-13")); // error
 
 //////////////////////////////////
 // input: [5, 4, 3, 2, 1], 2
@@ -163,18 +163,18 @@ console.log("string -13", isSquareNumber2("-13")); // error
 // output: ['b', 'c']
 
 //Returns the last element of an array. Passing "count" will return the last "count" elements of the array.
-function last(list, count) {
-	// check if list is NOT an array and count is greater than list.length
-	if (!Array.isArray(list) || count > list.length) {
-		return "Error: please pass a list and count less than list length";
-	}
+// function last(list, count) {
+// 	// check if list is NOT an array and count is greater than list.length
+// 	if (!Array.isArray(list) || count > list.length) {
+// 		return "Error: please pass a list and count less than list length";
+// 	}
 
-	// use slice method to return "count" elements in array
-	return list.slice(list.length - count, list.length);
-}
+// 	// use slice method to return "count" elements in array
+// 	return list.slice(list.length - count, list.length);
+// }
 
-var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
-console.log(last(animals, 20));
+// var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+// console.log(last(animals, 20));
 
 
 
@@ -186,8 +186,21 @@ console.log(last(animals, 20));
 
 // gets the first two letters of each word in the list.
 function getFirstTwoLettersOfEachWord(list) {
-
+	// create a place to store first two letters of each word
+	var storage = [];
+	// go through each item in list
+	for (var i = 0; i < list.length; i = i + 1) {
+		// get first two letters of each word
+		var two = list[i].slice(0,2);
+		// add first two letters to storage
+		storage.push(two);
+	}
+	// return storage
+	return storage;
 }
+
+var list = ['hello', 'goodbye', 'excellent']
+// console.log(getFirstTwoLettersOfEachWord(list));
 
 //////////////////////////////////
 // input: "Hello Gharam"
@@ -195,11 +208,34 @@ function getFirstTwoLettersOfEachWord(list) {
 
 // reverses a string input
 function reverseString(str) {
-
+	// create an empty string for reversed input
+	let reversedString = "";
+	// iterate through the string backwards
+	for (var i = 0; i < str.length; i++) {
+		reversedString = str[i] + reversedString;
+		// add the element to the new string
+	}
+	// return new string
+	return reversedString;
 }
 
+function reverseString2(str) {
+	// create an empty string for reversed input
+	let reversedString = "";
+	// iterate through the string backwards
+	for (var i = str.length - 1; i >= 0; i--) {
+		reversedString = reversedString + str[i];
+		// add the element to the new string
+	}
+	console.log(reversedString);
+	// return new string
+	return reversedString;
+}
+
+// reverseString2("Hello Noor");
+
 //////////////////////////////////
-// input: [1, 2, 3], 3
+// input: [1, 2, 3, 4], 3
 // output: true
 
 // input: [1, 2, 3], 8
@@ -207,8 +243,18 @@ function reverseString(str) {
 
 //Returns true if the value is present in the list. 
 function contains(list, value) {
-
+	// check every item in the list until we find the item
+	var valueExists = false;
+	var counter = 0;
+	while (!valueExists && counter < list.length) {
+		if (value == list[counter]) {
+			valueExists = true;
+		}
+		counter = counter + 1;
+	}
+	return valueExists;
 }
+console.log(contains([1,2,4,5,5], 5));
 
 //////////////////////////////////
 // input: [{name: 'moe', age: 40}, {name: 'larry', age: 50}, {name: 'curly', age: 60}], 'name'
