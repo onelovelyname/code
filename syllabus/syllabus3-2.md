@@ -5,7 +5,7 @@
 - Must have 3 methods and 5 properties
 - Start with using the functional way of creating an object. If you have time, write it again using the class keyword
 
-## Review classes project (30 minutes)
+## Review classes worksheet (45 minutes) 
 
 ## Melanie's lecture (60 minutes, split into half classes, half HTML/DOM)
 - Follow up and review of Classes lecture 
