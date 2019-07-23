@@ -17,13 +17,6 @@ BREAK (10 minutes)
 
 ## Melanie's additions to classes lecture (if necessary)
 
-## Project (1 hour)
-- Classes project - in groups of 2, create a class for a type you imagine: Animal, Person, Country...anything!
-- Must have 3 methods and 5 properties
-- Start with using the functional way of creating an object. If you have time, write it again using the class keyword
-
-## Review classes project (30 minutes)
-
 ## Homework: Continue freecodecamp (1 hour)
 - Practice with datatypes in Javascript: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/
 

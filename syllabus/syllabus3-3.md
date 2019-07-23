@@ -3,11 +3,16 @@
 ## Game (15 minutes)
 
 ## Melanie's lecture (1 hour)
-- sending requests to external API for information, perhaps Youtube, using React structure
+- Introduction to React
 
-## Project 1
-- Send a request to an external API (Youtube) for a video.
-- During Projects 1 and 2, we can also enjoy filming and recording at Shoruq's recording studio
+## Project 1 (1 hour)
+- Basic setup of React app
 
-## Project 2
-- Handle response and display Youtube video on the page in a grid.
+## Orjwan's lecture (1 hour)
+- Getting user inputs from a form in React
+- Displaying it in user interface
+
+## Project 2 (1 hour)
+- Get user inputs
+- Display data some way, perhaps as a Youtube video on the page in a grid
+

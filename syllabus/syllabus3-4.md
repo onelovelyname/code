@@ -3,7 +3,7 @@
 ## Game (15 minutes)
 
 ## Melanie's lecture (1 hour)
-- React
+- Sending requests within React to external API
 
 ## Project (1 hour)
 - Complete frontend project sending request, receiving response, and displaying information
