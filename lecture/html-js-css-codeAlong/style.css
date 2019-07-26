@@ -1,0 +1,17 @@
+#main-section {
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+  font-family: ALGERIAN;
+}
+
+#my-picture {
+  width: 150px;
+  border: 5px solid pink;
+}
+
+.about-me-paragraph {
+  font-size: 20px;
+}
