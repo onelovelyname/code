@@ -1,5 +1,10 @@
 /*connect this stylesheet to index.html*/
 
+/*example*/
+h1 {
+  color: red;
+}
+
 /*1. style your page as you like*/
 /*2. use classes and ids to style elemnts.*/
 /*3. use proper names for classes and ids.*/
