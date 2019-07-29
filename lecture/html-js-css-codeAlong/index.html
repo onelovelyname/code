@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My resume</title>
+    <!--connect css file to THIS html document-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <main id="main-section">
+      <h1 class="my-resume-class" id="my-resume-id">My Resume</h1>
+      <a href="https://github.com/orjwan98" target="_blank"
+        ><img src="./picture.jpg" id="my-picture"
+      /></a>
+      <p class="about-me-paragraph">
+        Hello there! My name is Violet and I am a Computer Science graduate of
+        London university.
+      </p>
+    </main>
+    <section>
+      <h2>My skills</h2>
+      <input
+        type="text"
+        placeholder="enter your skills..."
+        id="skills-input"
+        value="servers admin"
+      />
+      <button id="add-button">ADD</button>
+      <ul id="skills-list">
+        <li>Frontend programmer</li>
+        <li>Backend programmer</li>
+      </ul>
+    </section>
+
+    <!--connect script file to THIS html file-->
+    <script src="script.js"></script>
+  </body>
+</html>
