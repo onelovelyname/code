@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>My resume</title>
+    <!--connect css file to THIS html document-->
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
@@ -14,12 +15,25 @@
       /></a>
       <p class="about-me-paragraph">
         Hello there! My name is Violet and I am a Computer Science graduate of
-        London university. My short-term goal is to work as a software engineer
-        at a company that recognizes my worth as an individual and encourages me
-        to grow and learn. My long-term goal is to work as a teacher for a
-        university teaching Computer Science and maybe start my own web
-        development bootcamp as a side business.
+        London university.
       </p>
     </main>
+    <section>
+      <h2>My skills</h2>
+      <input
+        type="text"
+        placeholder="enter your skills..."
+        id="skills-input"
+        value="servers admin"
+      />
+      <button id="add-button">ADD</button>
+      <ul id="skills-list">
+        <li>Frontend programmer</li>
+        <li>Backend programmer</li>
+      </ul>
+    </section>
+
+    <!--connect script file to THIS html file-->
+    <script src="script.js"></script>
   </body>
 </html>
