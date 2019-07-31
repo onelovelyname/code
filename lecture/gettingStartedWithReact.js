@@ -1,3 +1,4 @@
+// Create a new React application
 
 npx create-react-app metube
 
@@ -10,15 +11,12 @@ rm -f *
 // Or, if you're on Windows:
 del *
 
-# Then, switch back to the project folder
+// Then, switch back to the project folder
 cd ..
 
-# Add a file named index.css in the src/ folder
+// Add a file named index.css in the src/ folder
 
-# Add a file named index.js in the src/ folder
+// Add a file named index.js in the src/ folder
 
-# Add the following three lines to index.js in the src/ folder
+// Follow the examples in lecture/indexExample.js and lecture/indexExample.css 
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
