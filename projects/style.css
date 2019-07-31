@@ -5,6 +5,10 @@ h1 {
   color: red;
 }
 
+img {
+	width: 150px;
+	border: blueviolet 2px solid;
+}
 /*1. style your page as you like*/
 /*2. use classes and ids to style elemnts.*/
 /*3. use proper names for classes and ids.*/

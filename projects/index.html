@@ -2,19 +2,53 @@
 Make a profile page with the following:
 
 ===section 1==== About me section [covered last lecture]
-1. One main heading. 
-2. image of you.
-3. a link that goes to your github page when your image gets clicked. 
-4. A paragraph about you.
+1. One main heading.  X
+2. image of you. X
+3. a link that goes to your github page when your image gets clicked.  X
+4. A paragraph about you. X
 
 ====section 2==== my hobbies section
-1. one heading that says: My hobbies. 
-2. one input box.
-3. a button that says: add!.
+1. one heading that says: My hobbies. X
+2. one input box. X
+3. a button that says: add!. X
 5. unordered list to store your hobbies list.
 
 ====section 3==== [BONUS] Random colors!
-1. one heading that says: Random colors!
-2. one input box for color. 
-3. a button that says: change color!. 
+1. one heading that says: Random colors! X
+2. one input box for color.  X
+3. a button that says: change color!. X 
 -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Profile Page</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<h1>About Me</h1>
+			<a href="https://github.com/onelovelyname/code/blob/master/syllabus/syllabus4-2.md" target="_blank">
+				<img src="teddybear.jpg" alt="Teddy bear" />		
+			</a>
+			<p>I am a teddy bear wearing a lion t-shirt.</p>	
+		</main>
+		<section>
+			<h2>My hobbies</h2>
+			<input type="text" placeholder="Add a hobby" id="hobby-input" />
+			<button id="add-button">Add your hobby</button>
+			<ul id="hobbies-list">
+				<li>Dancing</li>
+				<li>Jumping</li>
+			</ul>	
+		</section>
+	
+		<section>
+			<h2>Random colors!!!</h2>
+			<input type="text" placeholder="Add a color" id="color-input"/>
+			<button id="color-button">Add your favorite color</button>
+		</section>
+
+		<script src="script.js"></script>
+	</body>
+</html>
