@@ -12,3 +12,8 @@
 
 //BONUS:
 //3. Allow the user to enter a color and change the body's background color to be the entered color.
+
+// get the button element
+// when user clicks on button, something happens
+	// we need to get the content of the input box
+	// update the list
