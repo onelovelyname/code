@@ -1,11 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-// use CSS from index.css file you've created
-import './index.css';
-// don't worry about this line for now
-import * as serviceWorker from './serviceWorker';
-
 /*
 // SECTION 1: Creating the Page Layout //
 
@@ -26,22 +18,3 @@ Now that you have your layout built, change your layout to use nested components
 2. Figure out how to add and render this code within your React Application
 */
 
-
-function App() {
-  return (
-    <div className="App">
-      <header>
-        <h1>
-          Hello everyone!
-        </h1>
-      </header>
-    </div>
-  );
-}
-
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
