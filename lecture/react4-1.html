@@ -10,15 +10,34 @@
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
   </head>
   <body>
-    <h1>Not using react</h1>
+    <h1>Greetings from the universe (Html)</h1>
     <div id="root"></div>
     <script type="text/babel">
+      var name = "Arwa";
+      var area = "Dheisheh";
 
-      function name(first, last) {
-        return `${first} ${last}`;
+      function nameLocation (name, area) {
+        return `${name} is from ${area}`;
       }
+
+      var element = 
+      <div>
+        <h2>{nameLocation(name, area)}</h2>
+        <p>Hi I'm a teddy bear</p>
+      </div>
+
+      // first way of declaring Component: functional
+      function Welcome(props) {
+        console.log(props);
+        return <h2>Welcome to our website {props.name}! We're in {props.area}</h2>
+      }
+
+      // second way of declaring Component: class
+      
+      
+
       ReactDOM.render(
-        <h1>Hello, {name("Melanie", "Gin")}!</h1>,
+        <Welcome area="Shoruq" name="Noor"/>,
         document.getElementById('root')
       );
 
